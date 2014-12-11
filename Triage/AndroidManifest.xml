@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.triage"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!--
+              To reimplement Search Later 
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".Search" >
+            </meta-data>
+            -->
+        </activity>
+        <activity
+            android:name=".AllPatients"
+            android:label="@string/title_activity_all_patients" >
+        </activity>
+        <activity
+            android:name=".ViewVitalsActivity"
+            android:label="@string/title_activity_view_vitals_activity" >
+        </activity>
+        <activity
+            android:name=".AddVitalsActivity"
+            android:label="@string/title_activity_add_vitals_activity" >
+        </activity>
+        <activity
+            android:name=".UrgencyPatientListFragment"
+            android:label="@string/title_activity_urgency_patient_list_fragment" >
+        </activity>
+        <activity
+            android:name=".ArrivalTimePatientListFragment"
+            android:label="@string/title_activity_arrival_time_patient_list_fragment" >
+        </activity>
+        <activity
+            android:name=".ViewPatientInfo"
+            android:label="@string/title_activity_view_patient_info" >
+        </activity>
+        <!--
+        To reimplement Search Later 
+        <activity
+            android:name=".Search"
+            android:label="@string/title_activity_search" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" >
+            </meta-data>
+        </activity>
+        -->
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".NurseMenu"
+            android:label="@string/title_activity_nurse_menu" >
+        </activity>
+        <activity
+            android:name=".NurseTriage"
+            android:label="@string/title_activity_nurse_triage" >
+        </activity>
+        <activity
+            android:name=".LoginVerfication"
+            android:label="@string/title_activity_login_verification" >
+        </activity>
+        <activity
+            android:name=".LoginVerification"
+            android:label="@string/title_activity_login_verification" >
+        </activity>
+        <activity
+            android:name=".PrescriptionAdd"
+            android:label="@string/title_activity_prescription_add" >
+        </activity>
+        <activity
+            android:name=".NewPatient"
+            android:label="@string/title_activity_new_patient" >
+        </activity>
+    </application>
+
+</manifest>

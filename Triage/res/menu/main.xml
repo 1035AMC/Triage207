@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<!--  To reimplement Search Later 
+    <item android:id="@+id/search"
+          android:title="@string/search"
+          android:hint="@string/search_hint"
+          android:showAsAction="collapseActionView|ifRoom"
+          android:actionViewClass="android.widget.SearchView" />
+    -->
+</menu>
